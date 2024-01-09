@@ -33,4 +33,20 @@ function getRandom(arr) {
   var randomElement = arr[randomIndex];
   return randomElement;
 }
+// Function to generate password with user input
+function generatePassword() {
+  var options = getPasswordOptions();
+  if (!options) return null;
+
+  var possibleCharacters = [];
+  var guaranteedCharacters = [];
+  var finalPassword = "";
+
+  // Logic to add characters based on user choices
+  // ...
+
+  return finalPassword;
+}
+
+
 
