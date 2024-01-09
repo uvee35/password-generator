@@ -1,7 +1,7 @@
 // Function to prompt user for password options
 function getPasswordOptions() {
   const MIN_LENGTH = 8;
-  const MAX_LENGTH = 50;
+  const MAX_LENGTH = 128;
 
   let length;
   do {
